@@ -17,10 +17,18 @@ const myTeam = new Team;
 myTeam[0] = swor;
 myTeam[1] = bow;
 myTeam[2] = mag;
+
 const compTeam = new Team;
 compTeam[0] = dem;
 compTeam[1] = dead;
 compTeam[2] = vam;
 
-console.log(...myTeam);
-console.log(...compTeam);
+console.log(myTeam.next().value);
+console.log(myTeam.next().value);
+console.log(myTeam.next().value);
+
+console.log(compTeam.next().value);
+console.log(compTeam.next().value);
+console.log(compTeam.next().value);
+
+//console.log(...compTeam);
