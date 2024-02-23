@@ -20,25 +20,3 @@ export default class Team {
     }
   }
 }
-
-/*
-[Symbol.iterator] = function() {
-    return {
-      counter: 0,
-      next() {
-        if (this.counter === this.length) {
-          return {
-            value: undefined,
-            done: true
-          }
-        }
-        this.counter++;
-        return {
-          value: this[this.counter],
-          done: false
-        }
-      }
-    }
-  }
-}
-*/
