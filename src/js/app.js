@@ -23,12 +23,8 @@ compTeam[0] = dem;
 compTeam[1] = dead;
 compTeam[2] = vam;
 
-console.log(myTeam.next().value);
-console.log(myTeam.next().value);
-console.log(myTeam.next().value);
+//console.log(myTeam);
+for (let el of myTeam) {
+  console.log(el);
+}
 
-console.log(compTeam.next().value);
-console.log(compTeam.next().value);
-console.log(compTeam.next().value);
-
-//console.log(...compTeam);
